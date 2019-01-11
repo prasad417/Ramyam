@@ -8,8 +8,8 @@
 
 import UIKit
 
-
 class RegisterViewController: UIViewController {
+      
     
     //Textfields pre-linked with IBOutlets
     

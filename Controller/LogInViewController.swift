@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class LogInViewController: UIViewController {
     
     //Textfields pre-linked with IBOutlets
