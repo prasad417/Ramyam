@@ -127,6 +127,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="NQK-im-HFc" kind="show" identifier="goToHome" id="YZy-NH-0H4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -200,6 +203,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="NQK-im-HFc" kind="show" identifier="goToHome" id="o3r-Bq-YZC"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -237,6 +243,28 @@
             </objects>
             <point key="canvasLocation" x="1902.4553571428571" y="-204.34782608695653"/>
         </scene>
+        <!--Home Scene-->
+        <scene sceneID="SgR-6f-Rux">
+            <objects>
+                <viewController storyboardIdentifier="homeVC" id="NQK-im-HFc" userLabel="Home Scene" customClass="HomeViewController" customModule="Ramyam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5dJ-TJ-C6p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-Yy-mBo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ZtL-cC-zSA"/>
+                    </view>
+                </viewController>
+                <navigationItem title="Home" id="UJJ-pf-MR0" userLabel="Home"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MNP-Cb-wKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2918.840579710145" y="107.8125"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="x6V-wt-u1V">
             <objects>
@@ -259,4 +287,7 @@
     <resources>
         <image name="background" width="640" height="474.33334350585938"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YZy-NH-0H4"/>
+    </inferredMetricsTieBreakers>
 </document>
