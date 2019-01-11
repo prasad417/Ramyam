@@ -259,8 +259,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZtL-cC-zSA"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="JTh-NZ-NaD" userLabel="Home">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="5eZ-5v-6dA" userLabel="Log Out"/>
+                    </navigationItem>
                 </viewController>
-                <navigationItem title="Home" id="UJJ-pf-MR0" userLabel="Home"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MNP-Cb-wKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2918.840579710145" y="107.8125"/>
@@ -288,6 +290,6 @@
         <image name="background" width="640" height="474.33334350585938"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YZy-NH-0H4"/>
+        <segue reference="o3r-Bq-YZC"/>
     </inferredMetricsTieBreakers>
 </document>
