@@ -139,6 +139,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gbQ-CC-gZe"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Register" id="YX4-yQ-AJl" userLabel="Register"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwL-RZ-YCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
