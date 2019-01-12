@@ -260,6 +260,7 @@
                         <viewLayoutGuide key="safeArea" id="ZtL-cC-zSA"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="JTh-NZ-NaD" userLabel="Home">
+                        <barButtonItem key="leftBarButtonItem" id="cex-fh-W2r"/>
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="5eZ-5v-6dA" userLabel="Log Out"/>
                     </navigationItem>
                 </viewController>
